@@ -14,7 +14,7 @@ dotenv.config()
 app.use(bodyParser.json({ limit: '30mb', extended: true }))
 app.use(bodyParser.urlencoded({ limit: '30mb', extended: true }))
 app.use(cors({
-  origin: ["http://localhost:3000","https://memories-app.onrender.com"]
+  origin: ["http://localhost:3000","https://memories-app-o99z.onrender.com"]
 }));
 
 
